@@ -1,0 +1,375 @@
+.pagina{
+    background-color: #087542;
+    font-family: "inter", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32.74px;
+    letter-spacing: -0.11px;
+   height: 737px;
+}
+
+.center{
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+
+
+.user{
+    background-color: #00A357;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    right: 30px;
+    top: 17px;
+}
+.user img{
+    position: relative;
+    width: 26px;
+    height: 26px;
+    top: 17px;
+}
+
+.sidebar{
+    width: 261px;
+    display: flex;
+    position: relative;
+    top: 42px;
+    left: 33px;
+    z-index: 2;
+}
+
+.abas div{
+    width: 100%;
+    display: flex;
+}
+
+.atendimento p{
+    position: relative;
+    left: 10px;
+    text-decoration: none;
+    color: inherit;   
+}
+
+#img_cliente{
+    width: 19.09px;
+    height: 30px;
+}
+
+.sidebar p{
+    color: white;
+    width: 210px;
+    height: 30px;
+    margin: 0 auto;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32.74px;
+    letter-spacing: -0.11px;
+   
+}
+
+#logo{
+    width: 159px ;
+    height: 64px ;
+}
+
+.logo{
+    text-align: center;
+}
+
+.atendimento{
+    background-color:#005D32;
+    padding: 10px;
+    border-left: 2px solid white;
+}
+
+.atendimento img{
+    width: 23.62 px ;
+    height: 29.34 px;
+}
+
+.abas div, .logo{
+    margin-bottom: 50px;
+}
+
+
+
+
+#img_gerencia{
+    width: 33.05px;
+    height: 30px;
+}
+
+#img_config{
+    width: 25.8px;
+    height: 25.95px;
+}
+
+#img_logout{
+    width: 21px;
+    height: 29px;
+    color: white;
+}
+
+.content{
+    width: 80.8%;
+    height: 87.3%;
+    position: absolute;
+    top: 94px;
+    left: 294px;
+    background-color: #F6F6F6;
+    border-radius: 40px 0 0 0;
+}
+
+
+.titulo1 p{
+    color: #005E32;
+    font-size: 32px;
+    padding-left: 60px;
+    margin-top: 30px;
+   
+}
+
+.filtros{
+    width: 100%;
+    height: 37px;
+   display: flex;
+   position: relative;
+   top: 30px;
+   text-align: right;
+   justify-content:right;
+   margin-bottom: 20px;
+  
+}
+
+.filtros div{
+    display: flex;
+    width: 160px;
+    height: 28px;
+    border: 1px solid #005D32;
+    border-radius: 50px;
+    margin-right: 20px;
+    padding-left: 3px;
+   
+}
+
+.filtros div p{
+    font-size: 14px;
+    margin: 0;
+    
+}
+
+#calendario{
+    width: 26px;
+    height: 28.73;
+}
+
+#seta{
+    width: 13.94px;
+    height: 7.59px;
+}
+
+#rota-icon{
+    height: 19px;
+}
+
+#busca-icon{
+    height: 19px;
+}
+
+.titulo{
+    display: flex;
+    width: 100%;
+    height: 45px;
+}
+
+.busca, .filtros p{
+    color: #005D32;
+}
+
+.periodo, .status, .rota{
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+.status img{
+    width: 16px;
+    height: 20px;
+}
+
+.busca{
+    align-items: center;  
+}
+
+.busca span{
+    margin-left: 7px;
+}
+
+.rotulos{
+    width: 100%;
+    
+}
+
+.box-rotulos{
+    position: relative;
+    top: 30px;
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    display: flex;
+    font-size: 21px;
+    width: 100%;
+    color: #666565;
+    margin-bottom: 40px;
+}
+
+.rota-rotulo{
+    margin-left: 25px;
+    margin-right: 75px;
+}
+
+.num{
+    margin-right: 80px;
+}
+.data{
+    margin-right: 170px;
+}
+.cliente{
+    margin-right: 150px;
+}
+.tecnico{
+    margin-right: 70px;
+}
+
+.visita{
+    margin-right: 65px;
+}
+.listacvt{   
+    align-content: center;
+    display: block;
+}
+
+.bloco{
+    font-size: 15px;
+   
+}
+
+.infos1{
+    padding: 12px;
+    display: flex;
+    margin-bottom: 10px;
+   text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.rotainfo-container{
+    width: 8%;
+    text-align: center;
+}
+
+.rota-info{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #CEA101;
+    font-size: 15px;
+    align-items: center;
+    margin-left: 25px;
+}
+
+#rota-info2{
+    background-color: blue;
+}
+#rota-info3{
+    background-color: purple;
+}
+.numeroinfo-container{
+    width:12% ;
+    text-align: center;
+}
+
+.numero-info{
+    width: 100%;
+   
+    text-align: center;
+  
+}
+
+.datainfo-container{
+    width: 12%;
+   
+}
+
+.data-info{   
+    width: 100%;
+    text-align: center;
+}
+
+.data-info p{
+    width: 100%;
+    text-align: center;
+}
+
+.clienteinfo-container{
+    width: 27%;
+    text-align: center;
+}
+.cliente-info{
+   
+    width: 100%;
+    text-align: center;
+}
+.cliente-info p{
+    text-align: center;
+    width: 100%;
+}
+
+.tecnicoinfo-container{
+    width: 10%;
+}
+.tecnico-info{
+  width: 100%;
+}
+
+.visitainfo-container{
+    width: 12%;
+}
+
+.visita-info{
+    width: 100%;
+
+}
+
+.duracaoinfo-container{
+    width: 15%;
+}
+.duracao-info{
+  width: 100%;
+}
+
+.trespontos{
+    margin-right: 10px;
+}
+.infos1{
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+
+.rota-info p{
+    margin: 0;
+    text-align: center;
+    color: #FFFFFF;
+  
+}
+
+.bloco{
+    display: block;
+}

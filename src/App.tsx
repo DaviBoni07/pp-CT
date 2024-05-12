@@ -9,6 +9,7 @@ import {
 import Login from "./login";
 import Detalhedeclientes from "./detalhedeclientes";
 import Cadastro from "./cadastro";
+import AtendimentolistadeCVT from "./Atendimento";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/detalhedeclientes" element={<Detalhedeclientes />} />
         <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/Atendimento" element={<AtendimentolistadeCVT />} />
       </Routes>
     </Router>
   );

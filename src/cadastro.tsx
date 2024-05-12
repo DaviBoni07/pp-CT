@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./indexcadastro.css";
 function Cadastro() {
   return (
+    <div className="body1">
     <div className="conteiner">
       <div className="wrapper">
         <img src="/images/sesoverde.png" id="seso1" alt="Logo Verde" />
@@ -48,6 +49,7 @@ function Cadastro() {
           </Link>
         </p>
       </div>
+    </div>
     </div>
   );
 }

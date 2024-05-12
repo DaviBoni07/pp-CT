@@ -3,6 +3,7 @@ import "./indexlogin.css";
 import { Link } from "react-router-dom";
 function Login() {
   return (
+    <div className="body">
     <div className="conteiner">
       <div className="wrapper">
         <img src="/images/sesoverde.png" id="seso" alt="Logo Verde" />
@@ -41,6 +42,7 @@ function Login() {
           </Link>
         </p>
       </div>
+    </div>
     </div>
   );
 }

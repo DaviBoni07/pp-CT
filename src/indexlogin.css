@@ -1,0 +1,134 @@
+@font-face {
+  font-family: nunito;
+  src: url(NunitoSans-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: nunito;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(imagens/fundoverde.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.wrapper {
+  width: 345px;
+  height: 383px;
+  background-color: white;
+  border-radius: 5%;
+  text-align: center;
+}
+#seso {
+  margin-top: 30px;
+  margin-bottom: -10px;
+  width: 159px;
+  height: 64px;
+  left: 21.16px;
+  gap: 0px;
+  opacity: 0px;
+}
+#sinergia {
+  font-family: nunito;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 13.64px;
+  margin-bottom: 50px;
+}
+.input-box {
+  margin-bottom: 40px;
+  align-items: center;
+  display: flex;
+  margin-left: 54px;
+}
+.input-senha {
+  align-items: center;
+  display: flex;
+  margin-left: 54px;
+}
+.input-box input {
+  height: auto;
+  border-top: 0;
+  width: 205px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 2.3px solid #005e32;
+}
+.input-senha input {
+  height: auto;
+  border-top: 0;
+  width: 205px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 2.3px solid #005e32;
+}
+#button span {
+  white-space: nowrap;
+}
+#button {
+  font-size: 17.5px;
+  font-weight: 600;
+  margin-top: 40px;
+  width: 243px;
+  height: 45px;
+  border-color: transparent;
+  background-color: #087542;
+  color: white;
+  border-top-right-radius: 50px; /* Arredonda o canto superior direito */
+  border-bottom-right-radius: 50px; /* Arredonda o canto inferior direito */
+  border-top-left-radius: 50px; /* Arredonda o canto superior esquerdo */
+  border-bottom-left-radius: 50px; /* Arredonda o canto inferior esquerdo */
+  font-family: nunito;
+  text-align: center; /* Centraliza o texto horizontalmente */
+  justify-content: center;
+}
+#button:hover {
+  background-color: #005e32;
+}
+.input-box img {
+  margin-right: 7px;
+}
+.input-senha img {
+  margin-right: 7px;
+}
+.input-box input::placeholder {
+  color: #005e32;
+  font-family: nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.82px;
+  letter-spacing: -0.11428570002317429px;
+  text-align: left;
+}
+.input-senha input::placeholder {
+  color: #005e32;
+  font-family: nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.82px;
+  letter-spacing: -0.11428570002317429px;
+  text-align: left;
+}
+.input-box input:focus,
+.input-senha input:focus {
+  border: none; /* Remove todas as bordas */
+  outline: none; /* Remove o contorno */
+  border-bottom: 2px solid #005e32; /* Adiciona apenas a borda inferior */
+}
+#ainda {
+  margin-top: 25px;
+  font-family: nunito;
+  font-weight: bold;
+  font-size: 13px;
+  color: black;
+}
+#cadastre-se {
+  color: #005e32;
+}

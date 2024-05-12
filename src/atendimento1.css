@@ -1,3 +1,8 @@
+html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 .pagina{
     background-color: #087542;
     font-family: "inter", sans-serif;
@@ -5,7 +10,7 @@
     font-weight: 300;
     line-height: 32.74px;
     letter-spacing: -0.11px;
-   height: 737px;
+    height: 100vh;
 }
 
 .center{
